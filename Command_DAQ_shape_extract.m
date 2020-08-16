@@ -1,7 +1,7 @@
 %Step 1: import command layer data (x1, y1 , send_power) and DAQ measureding layer data (x2, y2, measure_power)
 %Step 1 is not realized by code, so it is not shown in code
 %Step 2: plot command scan patch and measure scan patch
-Figure(1)
+figure(1)
 plot(x1,y1,'b')
 hold on
 plot(x2,y2,'r')
